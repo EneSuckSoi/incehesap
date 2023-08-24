@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
@@ -117,7 +118,7 @@ a{
 .main-carousel .container {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .buyuk-carousel {
@@ -145,7 +146,7 @@ a{
     vertical-align: text-bottom;
 }
 
-.sistemler{
+.sistemler {
     margin-top: 20px;
 }
 
@@ -154,10 +155,11 @@ a{
     justify-content: space-between;
 }
 
-.sistemler img{
+.sistemler img {
     width: 100%;
 }
-.sistemler h5{
+
+.sistemler h5 {
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -173,61 +175,91 @@ a{
     border: 1px solid rgb(236, 232, 232);
     background-color: white;
 }
-.populer-kategoriler{
+
+.populer-kategoriler {
     margin-top: 20px;
 }
-.populer-kategoriler .col2 h6, .col3 h6{
+
+.populer-kategoriler .col2 h6,
+.col3 h6 {
     text-align: center;
 }
-.populer-kategoriler .col1 h6, .col4 h6{
+
+.populer-kategoriler .col1 h6,
+.col4 h6 {
     margin-left: 15%;
 }
-.populer-kategoriler .container{
+
+.populer-kategoriler .baslik {
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.populer-kategoriler .container {
     width: 100%;
     display: flex;
 }
-.populer-kategoriler .col1{
+
+.populer-kategoriler .col1 {
+    padding: 1rem;
     width: 30%;
     background-color: white;
     border: 1px solid rgb(236, 232, 232);
 }
-.populer-kategoriler .col1 .row1 .notebook{
+
+.populer-kategoriler .col1 .row1 .notebook {
     display: flex;
     align-items: center;
+    padding-bottom: 5%;
     border-bottom: 1px solid rgb(236, 232, 232);
 }
-.populer-kategoriler .col1 .row2 .cep-telefonu{
+
+.populer-kategoriler .col1 .row2 .cep-telefonu {
     display: flex;
     align-items: center;
+    padding-top: 5%;
 }
-.populer-kategoriler .col2{
+
+.populer-kategoriler .col2 {
+    padding: 1rem;
     width: 20%;
     background-color: white;
     border: 1px solid rgb(236, 232, 232);
 }
-.populer-kategoriler .col3{
+
+.populer-kategoriler .col3 {
+    padding: 1rem;
     width: 20%;
     background-color: white;
     border: 1px solid rgb(236, 232, 232);
 }
-.populer-kategoriler .col4{
+
+.populer-kategoriler .col4 {
+    padding: 1rem;
     width: 30%;
     background-color: white;
     border: 1px solid rgb(236, 232, 232);
 }
-.populer-kategoriler .col4 .row1 .kulaklik{
+
+.populer-kategoriler .col4 .row1 .kulaklik {
     display: flex;
     align-items: center;
+    padding-bottom: 5%;
     border-bottom: 1px solid rgb(236, 232, 232);
 }
-.populer-kategoriler .col4 .row2 .veri-depolama{
+
+.populer-kategoriler .col4 .row2 .veri-depolama {
     display: flex;
     align-items: center;
+    padding-top: 5%;
 }
-.populer-kategoriler img{
-    margin-left: 13%;
+
+.populer-kategoriler img {
+    margin-left: 8%;
 }
-.bankalar{
+
+.bankalar {
     width: 100%;
     margin-top: 20px;
     height: 55px;
@@ -235,64 +267,78 @@ a{
     display: flex;
     align-items: center;
 }
-.bankalar .container{
+
+.bankalar .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.bankalar .container span{
+
+.bankalar .container span {
     font-size: large;
     font-weight: bold;
     color: grey;
 }
-.bankalarin-bankasi{
+
+.bankalarin-bankasi {
     width: 100%;
     height: 55px;
     background-color: rgb(40, 40, 40);
     display: flex;
     align-items: center;
 }
-.bankalarin-bankasi .container{
+
+.bankalarin-bankasi .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer{
+
+.footer {
     background-color: rgb(23, 23, 23);
 }
-.footer .container{
+
+.footer .container {
     width: 100%;
     display: flex;
     padding-top: 20px;
 }
-.footer .col1{
+
+.footer .col1 {
     width: 28%;
 }
-.footer .col2{
+
+.footer .col2 {
     width: 18%;
 }
-.footer .col3{
+
+.footer .col3 {
     width: 18%;
 }
-.footer .col4{
+
+.footer .col4 {
     width: 18%;
 }
-.footer .col5{
+
+.footer .col5 {
     width: 18%;
 }
-.footer p{
+
+.footer p {
     margin-bottom: 0;
     font-weight: 600;
     color: rgb(163, 163, 163);
 }
-.footer a{
+
+.footer a {
     font-weight: 500;
     display: block;
     font-size: .875rem;
     line-height: 1.25rem;
     color: rgb(115, 115, 115);
 }
-.footer-list{
+
+.footer-list {
     border-left: 1px solid green;
     list-style-type: none;
     padding-left: 20px;
