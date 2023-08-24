@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    float: left;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 230px;
+    height: 60px;
+}
+
+.secenekler {
+    display: flex;
+    align-items: center;
+}
+
+.secenekler a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 90%;
+    margin-left: 20px;
+    color: grey;
+}
+
+.secenekler a:hover {
+    color: black;
+}
+
+.header2 {
+    width: 100%;
+    background-color: rgba(105, 105, 105, 0.055);
+    border-bottom: 2px solid blue;
+}
+
+.header2 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tum-urunler {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    width: 60%;
+    display: grid;
+    align-content: center;
+}
+
+.giris span {
+    font-size: large;
+    font-weight: 500;
+}
+
+.giris .user {
+    display: inline-block;
+}
+
+.giris .user i {
+    font-size: xx-large;
+}
+
+.giris .login {
+    display: inline-block;
+    line-height: normal;
+    font-size: 85%;
+}
+
+.sepet span {
+    font-size: large;
+    font-weight: 500;
+}
+
+.sepet .cart {
+    display: inline-block;
+}
+
+.sepet .cart i {
+    font-size: xx-large;
+}
+
+.sepet .sepetim {
+    display: inline-block;
+    line-height: normal;
+    font-size: 85%;
+}
+
+.banka-reklam img {
+    width: 100%;
+}
+
+.main-carousel {
+    margin-top: 20px;
+}
+
+.main-carousel .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buyuk-carousel {
+    width: 75%;
+}
+
+.kucuk-carousel {
+    width: 23%;
+    background-color: white;
+    border: 1px solid rgb(236, 232, 232);
+}
+
+.kucuk-carousel img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 180px;
+}
+
+.kucuk-carousel h4 {
+    color: orangered;
+}
+
+.kucuk-carousel p {
+    vertical-align: text-bottom;
+}
+
+.sistemler{
+    margin-top: 20px;
+}
+
+.sistemler .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sistemler img{
+    width: 100%;
+}
+.sistemler h5{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sistem-toplama {
+    width: 50%;
+    border: 1px solid rgb(236, 232, 232);
+    background-color: white;
+}
+
+.hazir-sistemler {
+    width: 50%;
+    border: 1px solid rgb(236, 232, 232);
+    background-color: white;
+}
+.populer-kategoriler{
+    margin-top: 20px;
+}
+.populer-kategoriler .col2 h6, .col3 h6{
+    text-align: center;
+}
+.populer-kategoriler .col1 h6, .col4 h6{
+    margin-left: 15%;
+}
+.populer-kategoriler .container{
+    width: 100%;
+    display: flex;
+}
+.populer-kategoriler .col1{
+    width: 30%;
+    background-color: white;
+    border: 1px solid rgb(236, 232, 232);
+}
+.populer-kategoriler .col1 .row1 .notebook{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(236, 232, 232);
+}
+.populer-kategoriler .col1 .row2 .cep-telefonu{
+    display: flex;
+    align-items: center;
+}
+.populer-kategoriler .col2{
+    width: 20%;
+    background-color: white;
+    border: 1px solid rgb(236, 232, 232);
+}
+.populer-kategoriler .col3{
+    width: 20%;
+    background-color: white;
+    border: 1px solid rgb(236, 232, 232);
+}
+.populer-kategoriler .col4{
+    width: 30%;
+    background-color: white;
+    border: 1px solid rgb(236, 232, 232);
+}
+.populer-kategoriler .col4 .row1 .kulaklik{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(236, 232, 232);
+}
+.populer-kategoriler .col4 .row2 .veri-depolama{
+    display: flex;
+    align-items: center;
+}
+.populer-kategoriler img{
+    margin-left: 13%;
+}
+.populer-kategoriler
+.bankalar{
+    width: 100%;
+    margin-top: 20px;
+    height: 55px;
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    align-items: center;
+}
+.bankalar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bankalar .container span{
+    font-size: large;
+    font-weight: bold;
+    color: grey;
+}
+.bankalarin-bankasi{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
+}
+.bankalarin-bankasi .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    background-color: rgb(23, 23, 23);
+}
+.footer .container{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+.footer .col1{
+    width: 28%;
+}
+.footer .col2{
+    width: 18%;
+}
+.footer .col3{
+    width: 18%;
+}
+.footer .col4{
+    width: 18%;
+}
+.footer .col5{
+    width: 18%;
+}
+.footer p{
+    margin-bottom: 0;
+    font-weight: 600;
+    color: rgb(163, 163, 163);
+}
+.footer a{
+    font-weight: 500;
+    display: block;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(115, 115, 115);
+}
+.footer-list{
+    border-left: 1px solid green;
+    list-style-type: none;
+    padding-left: 20px;
+}
