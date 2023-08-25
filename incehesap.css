@@ -190,13 +190,22 @@ a {
     margin-left: 15%;
 }
 
-.populer-kategoriler .baslik {
-    font-size: large;
+.populer-kategoriler .baslik p{
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0;
+    margin-left: .5rem;
+    font-size: larger;
     font-weight: 500;
-
+    border-bottom: 1px solid rgb(236, 232, 232);
 }
 
-.populer-kategoriler .container {
+.populer-kategoriler .container .kategoriler{
+    background-color: white;
+    border: 1px solid rgb(236, 232, 232);
+}
+
+.populer-kategoriler .container .kategoriler .kategoriler-container{
     width: 100%;
     display: flex;
 }
@@ -204,8 +213,6 @@ a {
 .populer-kategoriler .col1 {
     padding: 1rem;
     width: 30%;
-    background-color: white;
-    border: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler .col1 .row1 .notebook {
@@ -213,33 +220,35 @@ a {
     align-items: center;
     padding-bottom: 5%;
     border-bottom: 1px solid rgb(236, 232, 232);
+    border-right: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler .col1 .row2 .cep-telefonu {
     display: flex;
     align-items: center;
     padding-top: 5%;
+    border-right: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler .col2 {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 20%;
-    background-color: white;
-    border: 1px solid rgb(236, 232, 232);
+}
+
+.populer-kategoriler .monitör{
+    border-right: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler .col3 {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 20%;
-    background-color: white;
-    border: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler .col4 {
     padding: 1rem;
     width: 30%;
-    background-color: white;
-    border: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler .col4 .row1 .kulaklik {
@@ -247,16 +256,18 @@ a {
     align-items: center;
     padding-bottom: 5%;
     border-bottom: 1px solid rgb(236, 232, 232);
+    border-left: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler .col4 .row2 .veri-depolama {
     display: flex;
     align-items: center;
     padding-top: 5%;
+    border-left: 1px solid rgb(236, 232, 232);
 }
 
 .populer-kategoriler img {
-    margin-left: 8%;
+    margin-left: 13%;
 }
 
 .bankalar {
