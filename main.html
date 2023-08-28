@@ -42,14 +42,50 @@
             </div>
 
             <div class="giris">
-                <div class="user">
-                    <i class="fa-solid fa-user"></i>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="user">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="login">
+                            <span> Üye Girişi <i class="fa-solid fa-angle-down"></i></span>
+                            <p>Yeni Üyelik Oluştur</p>
+                        </div>
+                    </button>
+                    <div class="dropdown-menu">
+                        <form class="px-4">
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormEmail1" class="form-label">E-Posta
+                                    Adresiniz</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                    placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormPassword1" class="form-label">Parola</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                                    placeholder="Parola">
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check d-flex justify-content-between">
+                                    <div class="mt-2">
+                                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                        <label class="form-check-label" for="dropdownCheck">
+                                            Beni hatırla
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn">Giriş Yap</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <div class="d-flex justify-content-between">
+                            <a class="dropdown-inline-item text-decoration-none ms-4 black" href="#">Şifremi
+                                Unuttum</a>
+                            <a class="dropdown-inline-item text-decoration-none me-4" href="#"
+                                style="color: orange;">Üye Ol</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="login">
-                    <span> Üye Girişi <i class="fa-solid fa-angle-down"></i></span>
-                    <p>Yeni Üyelik Oluştur</p>
-                </div>
-
             </div>
 
             <div class="sepet">
@@ -246,7 +282,22 @@
         <div class="container">
             <div class="col1">
                 <p>E Bülten Aboneliği</p>
-                <p>Kampanyalarımızdan haberdar olmak için e-posta adresinizi yazınız.</p>
+                <span>Kampanyalarımızdan haberdar olmak için e-posta adresinizi yazınız.</span>
+                <div class="email">
+                    <form>
+                        <div>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="E-Posta adresiniz">
+                            <button type="submit" class="btn btn-secondary"><i
+                                    class="fa-solid fa-envelope"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <a href="#"><img src="images/gaming gecesi.png" alt="..."></a>
+                <div class="images">
+                    <a href="#"><img src="images/sikayetvar.png" alt="..."></a>
+                    <a href="#"><img src="images/etbis qr.png" alt="..."></a>
+                </div>
             </div>
             <div class="col2">
                 <ul class="footer-list">
@@ -318,6 +369,16 @@
                     <li><a href="#">Mesafeli Satış Sözleşmesi</a></li>
                     <li><br></li>
                 </ul>
+            </div>
+        </div>
+        <div class="footfooter container">
+            <span><small>En Ucuz Teknoloji Fiyatlarını arayanlara incehesap.com
+                    © 2008 - 2023 incehesap.com Designed by zendizayn.com</small></span>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
             </div>
         </div>
     </div>

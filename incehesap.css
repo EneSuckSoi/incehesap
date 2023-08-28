@@ -9,6 +9,10 @@ a {
     color: black;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 .header {
     width: 100%;
     background-color: white;
@@ -86,6 +90,12 @@ a {
     display: inline-block;
     line-height: normal;
     font-size: 85%;
+    position: relative;
+    top: 50%;
+}
+
+.giris .dropdown-menu {
+    width: 185%;
 }
 
 .sepet span {
@@ -105,6 +115,8 @@ a {
     display: inline-block;
     line-height: normal;
     font-size: 85%;
+    position: relative;
+    top: 9%;
 }
 
 .banka-reklam img {
@@ -190,7 +202,7 @@ a {
     margin-left: 15%;
 }
 
-.populer-kategoriler .baslik p{
+.populer-kategoriler .baslik p {
     padding-top: 1rem;
     padding-bottom: 0.75rem;
     margin-bottom: 0;
@@ -200,18 +212,19 @@ a {
     border-bottom: 1px solid rgb(236, 232, 232);
 }
 
-.populer-kategoriler .container .kategoriler{
+.populer-kategoriler .container .kategoriler {
     background-color: white;
     border: 1px solid rgb(236, 232, 232);
 }
 
-.populer-kategoriler .container .kategoriler .kategoriler-container{
+.populer-kategoriler .container .kategoriler .kategoriler-container {
     width: 100%;
     display: flex;
 }
 
 .populer-kategoriler .col1 {
     padding: 1rem;
+    padding-right: 0;
     width: 30%;
 }
 
@@ -236,7 +249,7 @@ a {
     width: 20%;
 }
 
-.populer-kategoriler .monitör{
+.populer-kategoriler .monitör {
     border-right: 1px solid rgb(236, 232, 232);
 }
 
@@ -248,6 +261,7 @@ a {
 
 .populer-kategoriler .col4 {
     padding: 1rem;
+    padding-left: 0;
     width: 30%;
 }
 
@@ -317,6 +331,48 @@ a {
 
 .footer .col1 {
     width: 28%;
+    padding-right: 20px;
+}
+
+.footer .col1 span {
+    color: rgb(115, 115, 115);
+}
+
+.footer .col1 .email form {
+    width: 100%;
+    position: relative;
+    margin-top: .25rem;
+    margin-bottom: .75rem;
+}
+
+.footer .col1 .email input {
+    font-size: .875rem;
+    background-color: rgb(45 45 45);
+    border-style: none;
+}
+
+.footer .col1 .email button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: .875rem;
+    line-height: normal;
+    background-color: grey;
+    border-radius: 0;
+}
+
+.footer .col1 .images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .col1 img{
+    max-height: 119px;
+}
+
+.footer .col1 > a{
+    display: flex;
+    justify-content: center;
 }
 
 .footer .col2 {
@@ -353,4 +409,27 @@ a {
     border-left: 1px solid green;
     list-style-type: none;
     padding-left: 20px;
+}
+
+.footer .footfooter{
+    margin-top: 1.25rem;
+    border-top: 1px solid green;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footfooter span{
+    color: white;
+}
+
+.footer .footfooter .social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footfooter .social-media a{
+    margin-left: 15px;
+    font-size: larger;
 }
