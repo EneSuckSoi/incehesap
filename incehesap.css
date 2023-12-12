@@ -20,11 +20,6 @@ p {
     border-bottom: 1px solid lightgrey;
 }
 
-.header .container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .logo {
     display: inline-block;
 }
@@ -168,7 +163,8 @@ p {
 }
 
 .sistemler img {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .sistemler h5 {
